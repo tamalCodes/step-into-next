@@ -11,6 +11,6 @@ export default function Readsingleissue(req, res) {
       return res.status(404).json("SORRY SLUG NOT FOUND");
     }
     console.log(req.query.slug);
-    res.status(200).json(JSON.parse(data));
+    res.status(200).json(data);
   });
 }

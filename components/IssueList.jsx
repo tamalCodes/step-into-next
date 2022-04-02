@@ -17,12 +17,7 @@ const IssueList = () => {
                 {allissues.map((issue) => (
                     <SingleIssue issue={issue} />
                 ))}
-                {/* <SingleIssue />
-                <SingleIssue />
-                <SingleIssue />
-                <SingleIssue />
-                <SingleIssue />
-                <SingleIssue /> */}
+
             </div>
 
         </>
