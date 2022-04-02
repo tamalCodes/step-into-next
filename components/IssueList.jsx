@@ -1,5 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import Issuecontext from '../context/Issuecontext';
+import SingleIssue from './SingleIssue';
+import styles from "../styles/IssueListPage.module.css"
 
 const IssueList = () => {
     const context = useContext(Issuecontext);
@@ -10,7 +12,17 @@ const IssueList = () => {
     }, []);
 
     return (
-        <div>IssueList</div>
+        <>
+            <div className={styles.issuelistparent}>
+                <SingleIssue />
+                <SingleIssue />
+                <SingleIssue />
+                <SingleIssue />
+                <SingleIssue />
+                <SingleIssue />
+            </div>
+
+        </>
     )
 }
 
