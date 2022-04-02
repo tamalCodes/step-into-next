@@ -1,0 +1,7 @@
+The /issues page will be fetching the data.
+It will also have a button to open a modal.
+
+
+The modal will be for adding a issue onto the database.
+The added issues will be again showed in http://localhost:3000/issues
+
