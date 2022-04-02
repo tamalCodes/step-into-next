@@ -1,13 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from "../styles/Home.module.css"
 import Image from "next/image";
+import Navbar from './navbar';
 
 const About = () => {
+
+    useEffect(() => {
+        console.log("Hello world")
+    }, []);
+
     return (
         <>
             <div className={styles.container}>
 
-
+                <Navbar />
                 <main className={styles.main}>
                     <Image
                         alt="Next.js logo"
@@ -18,22 +24,14 @@ const About = () => {
                     <h1 className={styles.title}>Here{"'"}s all about us !!</h1>
 
                     <p className={styles.description}>
-                        A place where the comunnity solves your issue !!
+                        Issue hunter is a place where the community aims to solve your issue !!
+                    </p>
+                    <p className={styles.description}>
+                        Your issues can be anything be it a simple software fix, some issues related to this site itself, any problems in your code and whatsoever. We aim to have a community where all the issues gets solved, its simple. Just post one in the issues section and the community will handle the rest 😎
                     </p>
                 </main>
 
-                <footer className={styles.footer}>
-                    <a
-                        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Powered by{" "}
-                        <span className={styles.logo}>
-                            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-                        </span>
-                    </a>
-                </footer>
+
             </div>
         </>
     )
