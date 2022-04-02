@@ -1,0 +1,55 @@
+.issuedetailed_parentcontainer {
+  display: flex;
+  align-items: center;
+}
+
+.issuedetailed_subparentcontainer {
+  margin: auto;
+  margin-top: 5rem;
+  background-color: #edecec;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 3rem;
+  box-shadow: 10px 8px 4px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  width: 60%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.issuedetailed_textdiv {
+  width: 60%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.issuedetailed_issuetitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+
+.issuedetailed_issuedesc {
+  margin-top: 2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  /* width: 60%; */
+}
+
+.issuedetailed_issueauthor {
+  margin-top: 3rem;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 13px;
+  /* font-size: 18px;
+  line-height: 24px; */
+  /* width: 60%; */
+}
