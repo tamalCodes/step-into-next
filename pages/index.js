@@ -3,6 +3,7 @@ import Image from "next/image";
 import Script from "next/script";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/navbar";
+import Homecontainer from "../components/Homecontainer";
 
 export default function Home() {
   return (
@@ -18,13 +19,7 @@ export default function Home() {
 
       <Navbar />
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to Issue Hunter !!</h1>
-
-        <p className={styles.description}>
-          A place where the comunnity solves your issue !!
-        </p>
-      </main>
+      <Homecontainer />
     </div>
   );
 }

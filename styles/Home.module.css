@@ -1,9 +1,12 @@
 .container {
   padding: 0 2rem;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 50vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -12,20 +15,46 @@
   align-items: center;
 }
 
-.footer {
+.Imageflex1 {
+  margin-top: 3rem;
+  width: fit-content;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  flex-shrink: 1;
   align-items: center;
 }
 
-.footer a {
+.Imageflex2 {
+  margin-top: 3rem;
+  width: fit-content;
   display: flex;
-  justify-content: center;
+  flex-shrink: 1;
   align-items: center;
-  flex-grow: 1;
+}
+
+.Imageflex1_textdiv {
+  width: fit-content;
+  padding-left: 30px;
+}
+
+.Imageflex1_textdiv p {
+  width: 600px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Imageflex1_textdiv p span {
+  color: #035bbf;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.gethelpbutton {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
 }
 
 .title a {
@@ -54,7 +83,6 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  width: 87%;
 }
 
 .code {

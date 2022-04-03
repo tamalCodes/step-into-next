@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const SingleIssue = ({ issue }) => {
     return (
-        <Link href={`/issues/${issue.slug}`}>
+        <Link href={`/issues/${issue.slug}`} passHref >
             <div className={styles.singleissueparent}>
                 <Image src={profilepic} width={85} height={85} />
                 <div className={styles.textdiv}>
