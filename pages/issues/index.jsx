@@ -9,20 +9,14 @@ import Issuecontext from '../../context/Issuecontext'
 import { getallissues } from '../../service/IssueAPi'
 import Head from "next/head";
 
-const IssueListPage = () => {
+const IssueListPage = (props) => {
+
     const context = useContext(Issuecontext);
     const { allissues, setallissues, } = context;
 
-    const fetchallissues = async () => {
-        const alldata = await getallissues();
-        console.log(alldata.data);
-        setallissues(alldata.data)
-    }
-
     useEffect(() => {
-        fetchallissues()
-        console.log(allissues);
-    }, []);
+        setallissues(props.allmyissues)
+    }, [props.allmyissues]);
 
     return (
         <>
@@ -53,6 +47,22 @@ const IssueListPage = () => {
             </div>
         </>
     )
+}
+
+
+//* serverside rendering of the data  instead of client side
+//* This helps the site to run faster and better, SEO optimization and so on
+//* here we are calling the getallissues function from the service file which gives us basically all the data
+//* then we are setting the data to the usestate context
+
+export async function getServerSideProps(context) {
+    const alldata = await getallissues();
+
+    return {
+        props: {
+            allmyissues: alldata.data
+        }
+    }
 }
 
 export default IssueListPage
