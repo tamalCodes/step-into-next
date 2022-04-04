@@ -147,3 +147,49 @@
 .issuelink {
   color: #0070f3 !important;
 }
+
+/* //* ABOUT US SECTION  */
+.contactus_parent {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.contactus_textdiv {
+  margin-left: 20px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  width: 600px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contactus_textdiv h3 {
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.contactus_textdiv p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.contactus_label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  /* line-height: 30px; */
+}
+.contactus_input {
+  width: 400px !important;
+  border-radius: 5px;
+}
+
+.contactus_inputmessage {
+  width: 400px !important;
+  height: 100px;
+  border-radius: 5px;
+}
+
+/*     width: 400px !important; */

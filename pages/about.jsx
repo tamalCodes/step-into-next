@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import Head from 'next/head';
 import aboutimg from "../public/assets/AboutUs.svg"
 import Link from 'next/link';
+import contactus from "../public/assets/contactus.svg"
 
 const About = () => {
     return (
@@ -33,6 +34,35 @@ const About = () => {
                         <br />
                         Be it a problem in your device, a  bug in your code, some github code changes or even personal problems, just post it in <Link href='/issues' className={styles.issuelink}>Issues</Link> and let the community help you !!
                     </p>
+
+                    <div className={styles.contactus_parent}>
+
+                        <Image src={contactus} width={500} height={500} />
+
+                        <div className={styles.contactus_textdiv}>
+                            <h3>Have something to say ? </h3>
+                            <p> Feel free to share whatever you have in mind with us, our operators are available 7 days a week from 9AM to 9PM </p>
+                            <form>
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Full name</label>
+                                    <input type="text" className={`form-control ${styles.contactus_input}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Email ID</label>
+                                    <input type="email" className={`form-control ${styles.contactus_input}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                                </div>
+                                <div className="mb-3">
+                                    <label for="exampleInputPassword1" className={`form-label ${styles.contactus_label}`}>Message</label>
+                                    <input type="password" className={`form-control ${styles.contactus_inputmessage}`} id="exampleInputPassword1" />
+                                </div>
+
+                                <button type="submit" className="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+
+                    </div>
                 </main>
 
 
