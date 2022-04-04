@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import IssueList from '../../components/IssueList'
-import Navbar from '../../components/navbar'
+import Navbar from '../../components/Navbar'
 import styleshome from "../../styles/Home.module.css"
 import styles from "../../styles/IssueListPage.module.css"
 import plusicon from "../../public/assets/Plusicon.svg"
