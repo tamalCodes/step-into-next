@@ -28,7 +28,7 @@ const Homecontainer = () => {
                         <div className={styles.Imageflex1_textdiv}>
                             <p>
                                 Facing problem with some stuffs and finding hard to find out the solution ? <br />
-                                Here's the right place to find one !! <br />
+                                Here is the right place to find one !! <br />
                                 Go the <Link href={"/issues"} passHref>
                                     <span> issues </span>
                                 </Link> , and tell the community about your issue, we will help you !! Just so you know  , we the core members are not responsible for your decision, we instead have an Open commmunity which aims to solve your issue.
@@ -49,7 +49,7 @@ const Homecontainer = () => {
                         <div className={styles.Imageflex1_textdiv}>
                             <p>
                                 Facing problem with some stuffs and finding hard to find out the solution ? <br />
-                                Here's the right place to find one !! <br />
+                                Here is the right place to find one !! <br />
                                 Go the <span>issues</span> , and tell the community about your issue, we will help you !! Just so you know  , we the core members are not responsible for your decision, we instead have an Open commmunity which aims to solve your issue.
                             </p>
 

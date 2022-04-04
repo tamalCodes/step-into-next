@@ -44,17 +44,17 @@ const About = () => {
                             <p> Feel free to share whatever you have in mind with us, our operators are available 7 days a week from 9AM to 9PM </p>
                             <form>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Full name</label>
+                                    <label htmlFor="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Full name</label>
                                     <input type="text" className={`form-control ${styles.contactus_input}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
 
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Email ID</label>
+                                    <label htmlFor="exampleInputEmail1" className={`form-label ${styles.contactus_label}`}>Email ID</label>
                                     <input type="email" className={`form-control ${styles.contactus_input}`} id="exampleInputEmail1" aria-describedby="emailHelp" />
 
                                 </div>
                                 <div className="mb-3">
-                                    <label for="exampleInputPassword1" className={`form-label ${styles.contactus_label}`}>Message</label>
+                                    <label htmlFor="exampleInputPassword1" className={`form-label ${styles.contactus_label}`}>Message</label>
                                     <input type="password" className={`form-control ${styles.contactus_inputmessage}`} id="exampleInputPassword1" />
                                 </div>
 

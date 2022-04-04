@@ -15,7 +15,7 @@ const IssueList = () => {
         <>
             <div className={styles.issuelistparent}>
                 {allissues.map((issue) => (
-                    <SingleIssue issue={issue} />
+                    <SingleIssue issue={issue} key={issue.slug} />
                 ))}
 
             </div>
