@@ -19,6 +19,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Learned Image optimization with `next/Image`.
 - Links, headers and `_document.js` .
 - Used `fs` to display and parse dummy data from json folders.
+- Learned about SSG, SSR while loading the pages.
+- Added dummy data ( might not work on deployment ) 
 
 ## Deploy on Vercel
 
