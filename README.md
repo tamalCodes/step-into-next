@@ -1,3 +1,5 @@
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -13,6 +15,9 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## More about this App
+
+![image](https://user-images.githubusercontent.com/72851613/161691091-2fd2f97e-4096-4d7a-bef3-1a20d183a0de.png)
+
 
 **Issue Hunter** is a dummy application built with the help of `Next.Js` while learning more about it
 
